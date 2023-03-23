@@ -1,0 +1,48 @@
+#       _                  ____                _ 
+#      / \  _   _ _ __ ___|  _ \ _ __ ___   __| |
+#     / _ \| | | | '__/ _ \ |_) | '__/ _ \ / _` |
+#    / ___ \ |_| | | |  __/  __/| | | (_) | (_| |
+#   /_/   \_\__,_|_|  \___|_|   |_|  \___/ \__,_|
+#                                                 
+
+global:
+  msg:
+    # messages en broadcast
+    coffre_trouve: "§eLe coffre à été trouvé"
+    coffre_spawn: "§eLe coffre à spawné"
+    nom_coffre: "coffre bonus"
+  # temps en secondes
+  temps: 60
+  # nom du monde
+  monde: "spawn"
+  # nombre d'items dans le spawn
+  nombre_items: 8
+  items:
+    # id de l'item: nombre d'items
+    GOLDEN_APPLE: 64
+    APPLE: 64
+    BEEF: 64
+    ACACIA_BOAT: 1
+    ACACIA_BUTTON: 64
+    BREAD: 64
+    ACACIA_LOG: 64
+    BELL: 1
+  positions:
+    # nom de la position du coffre: [x, y, z]
+    pos1: [126, 67, 22]
+    pos2: [129, 67, 22]
+    pos3: [132, 67, 22]
+    pos4: [135, 67, 22]
+    pos5: [126, 67, 19]
+    pos6: [129, 67, 19]
+    pos7: [132, 67, 19]
+    pos8: [135, 67, 19]
+    pos9: [126, 67, 16]
+    pos10: [129, 67, 16]
+    pos11: [132, 67, 16]
+    pos12: [135, 67, 16]
+    pos13: [126, 67, 13]
+    pos14: [129, 67, 13]
+    pos15: [132, 67, 13]
+    pos16: [135, 67, 13]
+    

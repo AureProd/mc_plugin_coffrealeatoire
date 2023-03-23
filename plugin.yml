@@ -1,0 +1,26 @@
+
+#       _                  ____                _ 
+#      / \  _   _ _ __ ___|  _ \ _ __ ___   __| |
+#     / _ \| | | | '__/ _ \ |_) | '__/ _ \ / _` |
+#    / ___ \ |_| | | |  __/  __/| | | (_) | (_| |
+#   /_/   \_\__,_|_|  \___|_|   |_|  \___/ \__,_|
+#                                                 
+
+name: Coffre_aleatoire_plugin
+version: 1.0
+author: AureProd
+main: fr.aureprod.coffrealeatoire.Main
+api-version: 1.13
+commands:
+  start_coffrealeatoire:
+    description: §6Ceci est la commande pour démarer le coffre aléatoire > §4start_coffrealeatoire
+    permission: coffrealeatoire.use
+    permission-message: §cVous ne pouvez pas utiliser cette commande
+  stop_coffrealeatoire:
+    description: §6Ceci est la commande pour arrêter le coffre aléatoire > §4stop_coffrealeatoire
+    permission: coffrealeatoire.use
+    permission-message: §cVous ne pouvez pas utiliser cette commande
+permissions:
+  coffrealeatoire.use:
+    default: op
+    description: §2Autorise utilisation de la commande §4start_coffrealeatoire et §4stop_coffrealeatoire
